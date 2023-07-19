@@ -1,0 +1,37 @@
+{
+  "cookies": [
+    {
+      "name": "mp_0_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%2206d196a1132e6e767c02bb9582de43f1%22%2C%22%24device_id%22%3A%20%221896dfe82d6c1f-01dd52913b9b91-1a525634-e1000-1896dfe82d7194d%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24user_id%22%3A%20%2206d196a1132e6e767c02bb9582de43f1%22%7D",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1721303543,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://localhost:4173",
+      "localStorage": [
+        {
+          "name": "__mpq_0_ev",
+          "value": "[{\"id\":\"acqj7nwyg75f4w0v\",\"flushAfter\":1689767553559,\"payload\":{\"event\":\"illa_active\",\"properties\":{\"$os\":\"Mac OS X\",\"$browser\":\"Chrome\",\"$current_url\":\"https://localhost:4173/WWWWWTest/dashboard/apps?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjo0LCJ1dWlkIjoiZTc3ZmVkZWYtZGU2NS00ZDhlLTliYWYtZDM3NWVlMGI2YWMxIiwicm5kIjoiMDAyMDM4IiwiaXNzIjoiSUxMQSIsImV4cCI6MTY5MDM3MjM0M30.WhraSFvrVhiGEY267KAsIV-_Ov6q\",\"$browser_version\":115,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.46.0\",\"$insert_id\":\"1pgywwgrlkh7oq0w\",\"time\":1689767543.559,\"distinct_id\":\"$device:1896dfe82d6c1f-01dd52913b9b91-1a525634-e1000-1896dfe82d7194d\",\"$device_id\":\"1896dfe82d6c1f-01dd52913b9b91-1a525634-e1000-1896dfe82d7194d\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"page\":\"illa\",\"user_id\":\"\",\"parameter11\":\"-1\",\"team_id\":\"WWWWWTest\",\"token\":\"0\"}}},{\"id\":\"iiqed56x5mccl6qo\",\"flushAfter\":1689767553743,\"payload\":{\"event\":\"$identify\",\"properties\":{\"$os\":\"Mac OS X\",\"$browser\":\"Chrome\",\"$current_url\":\"https://localhost:4173/WWWWWTest/dashboard/apps?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjo0LCJ1dWlkIjoiZTc3ZmVkZWYtZGU2NS00ZDhlLTliYWYtZDM3NWVlMGI2YWMxIiwicm5kIjoiMDAyMDM4IiwiaXNzIjoiSUxMQSIsImV4cCI6MTY5MDM3MjM0M30.WhraSFvrVhiGEY267KAsIV-_Ov6q\",\"$browser_version\":115,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.46.0\",\"$insert_id\":\"ue3gm7a6p4qwp0a7\",\"time\":1689767543.742,\"distinct_id\":\"06d196a1132e6e767c02bb9582de43f1\",\"$device_id\":\"1896dfe82d6c1f-01dd52913b9b91-1a525634-e1000-1896dfe82d7194d\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"06d196a1132e6e767c02bb9582de43f1\",\"$anon_distinct_id\":\"$device:1896dfe82d6c1f-01dd52913b9b91-1a525634-e1000-1896dfe82d7194d\",\"token\":\"0\"}}}]"
+        },
+        {
+          "name": "ILLABuilder@0.0.0/token",
+          "value": "{\"value\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjo0LCJ1dWlkIjoiZTc3ZmVkZWYtZGU2NS00ZDhlLTliYWYtZDM3NWVlMGI2YWMxIiwicm5kIjoiMDAyMDM4IiwiaXNzIjoiSUxMQSIsImV4cCI6MTY5MDM3MjM0M30.WhraSFvrVhiGEY267KAsIV-_Ov6qv6cSTf9RoOsDQ_I\",\"time\":1689767543542,\"expire\":-1}"
+        },
+        {
+          "name": "i18nextLng",
+          "value": "en-US"
+        },
+        {
+          "name": "illa-public/deviceID",
+          "value": "{\"value\":\"06d196a1132e6e767c02bb9582de43f1\",\"time\":1689767543742,\"expire\":-1}"
+        }
+      ]
+    }
+  ]
+}

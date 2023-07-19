@@ -14,8 +14,11 @@
     "format": "prettier --write \"apps/**/*.{ts,tsx}\"",
     "lint": "eslint \"apps/**/src/**/**.{ts,tsx}\" --config \".eslintrc.js\"",
     "lint:fix": "eslint --fix \"apps/**/src/**/**.{ts,tsx}\" --config \".eslintrc.js\"",
-    "test": "turbo run test",
-    "ts-check": "turbo run ts-check"
+    "ts-check": "turbo run ts-check",
+    "preview": "turbo run preview",
+    "test:gen": "playwright codegen https://localhost:4173/login",
+    "test:e2e-ui": "playwright test --ui",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -26,6 +29,8 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@playwright/experimental-ct-react": "^1.36.1",
+    "@playwright/test": "^1.36.1",
     "@rollup/plugin-typescript": "^11.1.2",
     "@trivago/prettier-plugin-sort-imports": "^4.0.0",
     "@types/react": "^18.0.27",
